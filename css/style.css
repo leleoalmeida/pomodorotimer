@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
+html,
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    color: white;
+    max-height: 100vh;
+}
+
+body {
+    background-color: #8442ff;
+    font-family: 'Patua One', sans-serif;
+}
+
+.scs {
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 100vh;
+    text-align: center;
+}
+
+h1,
+p {
+    opacity: .8;
+}
+
+#display__time-left {
+    font-size: 10vh !important;
+    opacity: 1 !important;
+}
