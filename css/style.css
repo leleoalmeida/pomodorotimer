@@ -8,8 +8,10 @@ body {
 }
 
 body {
-    background-color: #8442ff;
+    background-image: linear-gradient(to top right, #ff0844 0%, #ff6868 100%);
     font-family: 'Patua One', sans-serif;
+    width: 100vw;
+    height: 100vh;
 }
 
 .scs {
@@ -28,6 +30,17 @@ p {
 }
 
 #display__time-left {
-    font-size: 10vh !important;
+    margin: 0;
+    font-size: 20rem !important;
     opacity: 1 !important;
+}
+
+button {
+    border: none;
+    margin: 60px;
+    padding: 30px;
+    font-size: 3rem;
+    color: #ff0844;
+    background-color: white;
+    border-radius: 4px;
 }
