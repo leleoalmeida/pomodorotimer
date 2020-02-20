@@ -29,7 +29,7 @@ function displayTimeLeft(seconds) {
     const remainderSeconds = seconds % 60;
     const display = `${minutes}:${remainderSeconds < 10 ? '0' : ''}${remainderSeconds}`;
     timerDisplay.textContent = display;
-    document.title = `(${display}) Pomodoro Timer`;
+    document.title = `(${display}) PomodoroTimer.nl | Verbeter uw prestaties in 25 minuten`;
 }
 
 function displayEndTime(timestamp) {
@@ -37,7 +37,7 @@ function displayEndTime(timestamp) {
     const hour = end.getHours();
     const minutes = end.getMinutes();
 
-    endTimer.textContent = `You'll be done at ${hour}:${minutes < 10 ? '0' : ''}${minutes}`;
+    endTimer.textContent = `Je bent klaar om ${hour}:${minutes < 10 ? '0' : ''}${minutes}`;
 }
 
 function startTimer() {
