@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/style.css">
 
     <title>PomodoroTimer.nl | Verbeter uw prestaties in 25 minuten</title>
-    <meta name="description" content="De Pomodoro-techniek is een tijdmanagementmethode die eind jaren tachtig is ontwikkeld. De techniek maakt gebruik van een timer om het werk op te splitsen in intervallen, traditioneel 25 minuten lang, gescheiden door korte pauzes.">
+    <meta name="description" content="De Pomodoro-techniek maakt gebruik van een timer om het werk op te splitsen in intervallen, traditioneel 25 minuten lang, gescheiden door korte pauzes.">
 
     <meta property="og:type" content="website">
     <meta property="og:image">
@@ -47,14 +47,18 @@
 <body>
     <div class="scs">
         <h1>Pomodoro Timer</h1>
-        <h1 id="display__time-left">00:00</h1>
+        <div class="about">
+            <p>De <b>Pomodoro-techniek</b> is een tijdmanagementmethode die eind jaren tachtig is ontwikkeld. De techniek maakt gebruik van een timer om het werk op te splitsen in intervallen, traditioneel <b>25 minuten lang</b>, gescheiden door korte pauzes.
+                Elk interval staat bekend als een pomodoro, van het Italiaanse woord voor 'tomaat', naar de tomaatvormige kookwekker die Francesco Cirillo, de maker van de Pomodoro-techniek, gebruikte als universiteitsstudent.</p>
+        </div>
+        <span id="display__time-left">00:00</span>
         <h2 id="display__end-time">Pomodoro niet actief...</h2>
         <p></p>
         <button data-time="1500">POMODORO</button>
         <button data-time="300">BREAK</button>
         <!-- <button onclick="reflex()">REFLEX</button> -->
-        <p>De <b>Pomodoro-techniek</b> is een tijdmanagementmethode die eind jaren tachtig is ontwikkeld. De techniek maakt gebruik van een timer om het werk op te splitsen in intervallen, traditioneel <b>25 minuten lang</b>, gescheiden door korte pauzes.
-            Elk interval staat bekend als een pomodoro, van het Italiaanse woord voor 'tomaat', naar de tomaatvormige kookwekker die Francesco Cirillo, de maker van de Pomodoro-techniek, gebruikte als universiteitsstudent.</p>
+
+
     </div>
     <script src="./js/script.js"></script>
 </body>

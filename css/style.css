@@ -45,3 +45,8 @@ button {
     background-color: white;
     border-radius: 4px;
 }
+
+.about {
+    width: 70%;
+    margin: 0 auto;
+}
